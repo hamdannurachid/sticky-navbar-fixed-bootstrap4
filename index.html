@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Sticky - Hamdan Nurachid</title>
+    <link rel="icon" href="images/fav.png" sizes="16x16" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style-sticky.css">
+    
+</head>
+<body>
+    <!-- Top Info  -->
+    <div class="section-top">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="menu row">
+                    <div class="col-sm-12 col-md-6 col-lg-6 py-1">
+                        Senin, 23 Maret, 2020
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6 py-1 sosmed">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-google"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Top Info  -->
+    
+    
+    <!-- Navbar Menu  -->
+    <div id="navbar">
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <div class="container">                                 
+                <a class="navbar-brand" href="#home">
+                    <!-- <img src="images/logo.png" alt="" srcset=""> -->
+                    <h1>NavSticky</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>                   
+                
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto mr-3 mt-lg-0">
+                        <li class="nav-item active px-2" style="background-color: #F6F7F9; border-radius: 20px;">
+                            <a class="nav-link" href="#">Dashboard</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">Menu 1</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">Child</a>
+                                <a href="#" class="dropdown-item">Child</a>
+                                <a href="#" class="dropdown-item">Child</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">Menu 2</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">Child</a>
+                                <a href="#" class="dropdown-item">Child</a>
+                                <a href="#" class="dropdown-item">Child</a>
+                                <a href="#" class="dropdown-item">Child</a>
+                                <a href="#" class="dropdown-item">Child</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Kurikulum</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0 my-sm-0 navbar-nav" style="display: block;">
+                        <li class="nav-item dropdown ava">
+                            <a href="#" class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">
+                                <img src="ava.png" alt="">
+                            </a>
+                            
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">Profil</a>
+                                <a href="#" class="dropdown-item">Ganti Password</a>
+                                <a href="#" class="dropdown-item">Logout</a>
+                            </div>
+                        </li>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar Menu  -->
+    
+    <main>  
+        <div class="container">
+            <div class="row content">
+                <div class="col-6 bg-primary">
+                    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque corrupti tempora porro obcaecati officia ad, commodi dignissimos laudantium at sequi amet necessitatibus error libero explicabo nisi corporis vel voluptatibus pariatur.</h1>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur error ea eum, libero tempore magni! Ipsum minus modi ab itaque labore accusamus doloremque iure porro ex consectetur! Eveniet, amet dolore!</p>
+                </div>
+                <div class="col-6 bg-warning">
+                    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque corrupti tempora porro obcaecati officia ad, commodi dignissimos laudantium at sequi amet necessitatibus error libero explicabo nisi corporis vel voluptatibus pariatur.</h1>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer class="text-center">
+        <h4>by: Hamdan Nurachid</h4>
+        <small>May, 2020</small>
+    </footer>
+    
+    <script src="libraries/jquery/jquery-3.4.1.min.js"></script>
+    <script src="libraries/bootstrap/js/bootstrap.min.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        window.onscroll = function() {myFunction()};
+        var navbar = document.getElementById("navbar");
+        
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }     
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+body, html {
+  overflow-x: hidden;
+  font-family: 'Raleway', sans-serif;
+  min-height: 800px;
+}
+
+#navbar {
+  z-index: 1;
+}
+
+#navbar .navbar {
+  background-color: #ffffff !important;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+#navbar .navbar .navbar-brand img {
+  width: 200px;
+}
+
+#navbar .navbar a {
+  color: #00035E;
+  font-size: 15px;
+}
+
+#navbar .navbar .ava img {
+  width: 50px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.section-top {
+  background-color: #00035E;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.section-top .menu {
+  height: 30px;
+}
+
+.section-top .menu .sosmed {
+  text-align: right;
+}
+
+.section-top a {
+  color: #ffffff;
+  font-size: 12px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+main {
+  background-color: #F9F8FD;
+  padding-top: 100px;
+  padding-bottom: 250px;
+}
+
+@media (max-width: 767px) {
+  .section-top .text-right {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style-sticky.css.map */
